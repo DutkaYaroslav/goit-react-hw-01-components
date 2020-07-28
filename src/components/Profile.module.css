@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.color {
+  color: #708090;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 180px;
+  background-color: #dcdcdc;
+  color: #708090;
+}
+
+.span {
+  display: flex;
+  flex-wrap: wrap;
+  color: #000;
+  font-weight: 700;
+}

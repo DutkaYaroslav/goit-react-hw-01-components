@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  background-color: #000;
+  color: #fff;
+}
+
+.span {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
